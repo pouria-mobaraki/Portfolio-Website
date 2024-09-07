@@ -1,0 +1,9 @@
+#header {
+    transition: ease-in-out;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    overflow-y: auto;
+}
