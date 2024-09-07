@@ -6,6 +6,11 @@ import navListData from '../data/navListData'
 function Header() {
 
     const [navList,setNavList] = useState(navListData)
+    const handleNavOnClick = (id) => {
+      console.log(id);
+  
+      
+    }
 
   return (
     <header id='header'>
@@ -20,7 +25,7 @@ function Header() {
             <ul>
               {
                 navList.map(item => (
-                    <NavListItem  key={item._id} {...item}/>
+                    <NavListItem  key={item._id} {...item} navOnClick={handleNavOnClick} />
                 ))
               }
             </ul>

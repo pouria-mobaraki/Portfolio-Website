@@ -30,7 +30,7 @@ const navListData = [
         active: false ,
     },
     {
-        _id:1,
+        _id:6,
         target: 'contact',
         name: 'Contact',
         active: false ,
