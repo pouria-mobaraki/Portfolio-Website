@@ -7,8 +7,14 @@ function Header() {
 
     const [navList,setNavList] = useState(navListData)
     const handleNavOnClick = (id) => {
-      console.log(id);
-  
+    const newNavList =  navList.map(nav => {
+        nav.active=false
+        if(nav._id === id){
+           nav.active=true
+        }
+        return nav
+    })
+     setNavList(newNavList)
       
     }
 
@@ -16,7 +22,7 @@ function Header() {
     <header id='header'>
       <div className="container">
         <h1>
-            <a href="">Pouria Mobaraki</a>
+            <a href="#">Pouria Mobaraki</a>
         </h1>
         <h2>
             I'm a <span>front-end developer</span> from Tehran
