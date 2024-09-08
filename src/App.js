@@ -54,15 +54,25 @@ function App() {
     },
   ]
 
+  const handleSectionActive = (target) => {
+    sections.map(section => {
+      section.ref.current.classList.remove('section-show')
+      if (section.ref.current.id === target) {
+        section.ref.current.classList.add('section-show')
+      }
+      return section
+  })
+    
+  }
 
   return (
     <>
-    <Header ref={homeRef}/>
-    <About ref={aboutRef}/>
-    <Resume  ref={resumeRef}/>
-    <Services ref={serviceRef}/>
-    <Portfolio ref={portfolioRef}/>
-    <Contact ref={contactRef}/>
+    <Header reference={homeRef} sectionActive={handleSectionActive}/>
+    <About reference={aboutRef}/>
+    <Resume  reference={resumeRef}/>
+    <Services reference={serviceRef}/>
+    <Portfolio reference={portfolioRef}/>
+    <Contact reference={contactRef}/>
     </>
   );
 }

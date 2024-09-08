@@ -3,10 +3,11 @@ import './header.css'
 import NavListItem from './NavListItem'
 import navListData from '../data/navListData'
 
-function Header() {
+function Header({reference,sectionActive}) {
 
     const [navList,setNavList] = useState(navListData)
-    const handleNavOnClick = (id) => {
+
+    const handleNavOnClick = (id,target) => {
     const newNavList =  navList.map(nav => {
         nav.active=false
         if(nav._id === id){
@@ -15,11 +16,12 @@ function Header() {
         return nav
     })
      setNavList(newNavList)
+     sectionActive(target)
       
     }
 
   return (
-    <header id='header'>
+    <header id='header' ref={reference}>
       <div className="container">
         <h1>
             <a href="#">Pouria Mobaraki</a>

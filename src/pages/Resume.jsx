@@ -1,9 +1,9 @@
 import React from 'react'
 import './resume.css'
 
-function Resume() {
+function Resume({reference}) {
   return (
-  <section id="resume" className='resume'>
+  <section id="resume" className='resume' ref={reference}>
     <h1>Resume</h1>
   </section>
   )
