@@ -4,9 +4,7 @@ import NavListItem from './NavListItem'
 import navListData from '../data/navListData'
 import SocialLinksItem from './SocialLinksItem'
 
-
 function Header({reference,sectionActive}) {
-
     const [navList,setNavList] = useState(navListData)
     const[header,setHeader] = useState(false)
 

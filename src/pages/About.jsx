@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import SectionTitle from '../components/SectionTitle'
 import profileImg from '../images/pro4.JPG'
+import Counter from '../components/Counter'
 
 function About({reference}) {
   return (
@@ -17,8 +18,7 @@ function About({reference}) {
         <p className="fst-italic">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
            Quidem facere, illo dolore temporibus odio repudiandae pariatur,
-           dolorum aliquam enim similique nihil magnam dolor
-            possimus harum dolorem assumenda laborum distinctio nemo!
+           dolorum aliquam !
         </p>
         <div className="row">
           <div className="col-lg-6">
@@ -65,6 +65,7 @@ function About({reference}) {
       </div>
      </div>
    </div>
+   <Counter />
    </section>
   )
 }
