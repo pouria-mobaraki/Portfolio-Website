@@ -18,4 +18,4 @@ const [counters,setCounters]= useState(counterData);
   )
 }
 
-export default Counter
+export default Counter;
