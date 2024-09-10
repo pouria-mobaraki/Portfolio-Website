@@ -4,6 +4,7 @@ import SectionTitle from '../components/SectionTitle'
 import profileImg from '../images/prozoom.png'
 import Counter from '../components/Counter'
 import Skills from '../components/Skills'
+import Interests from '../components/Interests'
 
 function About({reference,aboutActive}) {
   return (
@@ -71,6 +72,7 @@ function About({reference,aboutActive}) {
    </div>
    <Counter active={aboutActive}/>
    <Skills active={aboutActive}/>
+   <Interests />
    </section>
   )
 }
