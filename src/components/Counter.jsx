@@ -3,13 +3,13 @@ import './counter.css'
 import counterData from '../data/counterData'
 import CounterItem from './CounterItem'
 
-function Counter() {
+function Counter({active}) {
 const [counters,setCounters]= useState(counterData);
 
   return (
     <div className='container counts'>
         <div className="row">
-         {counters.map(counter => (
+         {active && counters.map(counter => (
             <CounterItem  key={counter._id} item={counter}/>
          ))
          }

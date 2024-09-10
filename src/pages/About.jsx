@@ -1,10 +1,11 @@
 import React from 'react'
 import './about.css'
 import SectionTitle from '../components/SectionTitle'
-import profileImg from '../images/pro4.JPG'
+import profileImg from '../images/prozoom.png'
 import Counter from '../components/Counter'
+import Skills from '../components/Skills'
 
-function About({reference}) {
+function About({reference,aboutActive}) {
   return (
    <section id="about" className='about' ref={reference}>
    <div className="container about-me">
@@ -62,10 +63,14 @@ function About({reference}) {
             </ul>
           </div>
         </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cumque nobis adipisci natus nihil error sint ex, libero obcaecati quis porro, ratione vitae aliquam ipsum? Repudiandae pariatur error nulla hic?
+        </p>
       </div>
      </div>
    </div>
-   <Counter />
+   <Counter active={aboutActive}/>
+   <Skills active={aboutActive}/>
    </section>
   )
 }
