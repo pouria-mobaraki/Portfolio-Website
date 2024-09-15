@@ -32,6 +32,27 @@ useEffect(()=> {
   setData(portfolio)
 },[portfolio])
 
+const handleFilterData = (name)=>{
+  console.log(name);
+setFilters(
+  filters.map(filter => {
+    filter.active=false
+    if(filter.name===name){
+    filter.active=true
+    }
+    return filter
+  })
+)
+
+if(name==="All"){
+setData(portfolio)
+return
+}
+ const filtersElem = portfolio.filter(item => item.category === name)
+ setData(filtersElem)
+ 
+}
+
   return (
     <section id="portfolio" className="portfolio" ref={reference}>
         <div className="container">
@@ -39,7 +60,12 @@ useEffect(()=> {
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-filters">
-
+               {
+                filters.map(filter =>(
+                  <li key={filter._id} className={filter.active ? 'filter-active' : null}
+                  onClick={() => handleFilterData(filter.name)} >{filter.name}</li>
+                ) )
+               }
               </ul>
             </div>
           </div>
