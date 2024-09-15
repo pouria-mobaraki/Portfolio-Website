@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import './portfolio.css'
 import SectionTitle from '../components/SectionTitle'
 import filterListData from '../data/filterListData'
+import PortfolioItem from '../components/PortfolioItem'
 
 //  http://localhost:3000/api/portfolioData.json 
 
@@ -46,7 +47,7 @@ useEffect(()=> {
           {
             data && data.length > 0 &&
             data.map((item)=>(
-              <p key={item._id}>{item.category}</p>
+              <PortfolioItem key={item._id} item={item}/>
             ))
           }
           </div>
