@@ -49,3 +49,11 @@
     background: var(--primary);
     color: #444444;
 }
+.contact .contact-form .error-message {
+    margin-top: 10px;
+    /* background: rgba(255, 255, 255, 0.08); */
+    text-align: left;
+    background: #ed3c0d;
+    padding: 15px;
+    font-weight: 600;
+}
