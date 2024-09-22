@@ -1,75 +1,75 @@
 const interestsData = [
     {
         _id:1,
-        name:'coding',
+        name:'Coding',
         color:'#ffbb2c',
-        icon:'ri-store-line'
+        icon:'ri-code-line'
     },
     {
         _id:2,
-        name:'relaxing',
+        name:'Trading',
         color:'#5578ff',
-        icon:'ri-bar-chart-box-line'
+        icon:'ri-btc-line'
     },
     {
         _id:3,
-        name:'ps5',
+        name:'Camping',
         color:'#e80368',
-        icon:'ri-calendar-todo-line'
+        icon:'ri-tent-line'
     },
     {
         _id:4,
-        name:'swimming',
+        name:'Coffe',
         color:'#e361ff',
-        icon:'ri-paint-brush-line'
+        icon:'ri-cup-line'
     },
     {
         _id:5,
-        name:'nature',
+        name:'Traveling',
         color:'#47aeff',
-        icon:'ri-database-2-line'
+        icon:'ri-flight-takeoff-line'
     },
     {
         _id:6,
-        name:'camping',
-        color:'#ffa76e',
-        icon:'ri-store-line'
+        name:'Javascript',
+        color:'#ffbb2c',
+        icon:'ri-javascript-line'
     },
     {
         _id:7,
-        name:'football',
+        name:'Football',
         color:'#ffa76e',
-        icon:'ri-store-line'
+        icon:'ri-football-line'
     },
     {
         _id:8,
-        name:'travel',
+        name:'Youtube',
         color:'#ffa76e',
-        icon:'ri-store-line'
+        icon:'ri-youtube-line'
     },
     {
         _id:9,
-        name:'camping',
-        color:'#ffa76e',
-        icon:'ri-store-line'
+        name:'React',
+        color:'#5578ff',
+        icon:'ri-reactjs-line'
     },
     {
         _id:10,
-        name:'series',
-        color:'#ffa76e',
-        icon:'ri-store-line'
+        name:'Series',
+        color:'#e80368',
+        icon:'ri-movie-2-line'
     },
     {
         _id:11,
-        name:'movies',
-        color:'#ffa76e',
-        icon:'ri-store-line'
+        name:'Movies',
+        color:'#5578ff',
+        icon:'ri-film-line'
     },
     {
         _id:12,
-        name:'walking',
-        color:'#ffa76e',
-        icon:'ri-store-line'
+        name:'Walking',
+        color:'#ffbb2c',
+        icon:'ri-walk-line'
     },
 ]
 

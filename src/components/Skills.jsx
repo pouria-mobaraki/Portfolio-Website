@@ -13,12 +13,12 @@ function Skills(active) {
       </div>
       <div className="row skills-content">
         <div className="col-lg-6">
-          {active && skills.slice(0, 3).map((skill) => (
+          {active && skills.slice(0, 4).map((skill) => (
             <SkillBar key={skill._id} {...skill} active={active}/>
           ))}
         </div>
         <div className="col-lg-6">
-          {active && skills.slice(3, 6).map((skill) => (
+          {active && skills.slice(4, 8).map((skill) => (
             <SkillBar key={skill._id} {...skill} active={active}/>
           ))}
         </div>

@@ -29,6 +29,16 @@ const skillsData = [
         percentage:'50%',
         name:'Tailwind css'
     },
+    {
+        _id:7,
+        percentage:'90%',
+        name:'git & gitHub'
+    },
+    {
+        _id:8,
+        percentage:'50%',
+        name:'Redux'
+    },
 
 
 ]

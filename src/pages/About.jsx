@@ -18,9 +18,10 @@ function About({reference,aboutActive}) {
       <div className="col-lg-8 pt-4 pt-lg-0 content">
         <h3>FRONT-END || REACT Developer</h3>
         <p className="fst-italic">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Quidem facere, illo dolore temporibus odio repudiandae pariatur,
-           dolorum aliquam !
+          My desire to learn and work in the field of technology 
+          and front-end made me start and continue in
+          this direction.According to the spirit of teamwork I have ,
+           I can play an effective role in the direction of the team's goals.
         </p>
         <div className="row">
           <div className="col-lg-6">
@@ -51,7 +52,7 @@ function About({reference,aboutActive}) {
               </li>
               <li>
               <i className='bi bi-chevron-right'></i>{' '}
-              <strong>Degree:</strong> <span>Master</span>
+              <strong>Degree:</strong> <span>Bachelor</span>
               </li>
               <li>
               <i className='bi bi-chevron-right'></i>{' '}
@@ -65,7 +66,7 @@ function About({reference,aboutActive}) {
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cumque nobis adipisci natus nihil error sint ex, libero obcaecati quis porro, ratione vitae aliquam ipsum? Repudiandae pariatur error nulla hic?
+         
         </p>
       </div>
      </div>
