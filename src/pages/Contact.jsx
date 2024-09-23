@@ -13,7 +13,7 @@ function Contact({reference}) {
               <div className="info-box">
                 <i className="bx bx-map"></i>
                 <h3>My Address</h3>
-                <p>Street Name,City Nmae, State ....</p>
+                <p>Heravi Square,Tehran, Iran</p>
               </div>
             </div>
             <div className="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">

@@ -16,44 +16,37 @@ function Resume({reference}) {
             <h4>Pouria Mobaraki</h4>
             <p>
               <em>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Corrupti dolorem fuga eum. Temporibus mollitia 
-                illo rerum incidunt odit fugit deleniti corporis
-                 eius quidem eaque quae id, excepturi pariatur provident fugiat?
+                I am a front-end developer with about a year of training and learning experience.
+                I have developed various projects with javascript and react library.
               </em>
             </p>
             <ul>
-              <li>Street Name,City Name ,State, 0000</li>
-              <li>(00)12345678</li>
+              <li>Heravi Square, Tehran ,Iran</li>
+              <li>(0098)9121044339</li>
               <li>ss_pooria69@yahoo.com</li>
             </ul>
           </div>
 
           <h3 className="resume-title">Education</h3>
           <div className="resume-item">
-            <h4>Master of Industrial Engineer</h4>
+            <h4>Bachelor of Industrial Engineering</h4>
             <h5>2013-2018</h5>
             <p>
-              <em>Example Institute of Technology</em>
+              <em>Qazvin Islamic Azad University (Barajin)</em> 
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-               Commodi doloribus inventore maxime facilis
-                consectetur fugiat sequi,
-                corporis explicabo,
-               ea voluptatum velit quisquam,
-                id sapiente mollitia deserunt optio eligendi! Quam, possimus.
+             In this university, I learned various courses related to the field
+             of industrial engineering . In addition ,during those years , I had experience in programming with C++ 
+             language and doing practice projects.
             </p>
           </div>
 
           <div className="resume-item">
-            <h4>Bachelor of IndustrialEngineer</h4>
-            <h5>2013-2018</h5>
-            <p>qazvin university</p>
+            <h4>Deploma in mathematics and physics</h4>
+            <h5>2012</h5>
+            <p>Sobhan High school</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Beatae veniam perferendis sit id consectetur aut animi veritatis qui possimus!
-               Saepe libero beatae ipsam assumenda illo aliquam velit voluptatem odio ipsum.
+              I spent 4 years in sobhan high school.
             </p>
           </div>
         </div>
@@ -65,7 +58,7 @@ function Resume({reference}) {
             <h5>2023-present</h5>
             <p>
               <em>
-                Company Name ,City Nation
+                Projects
               </em>
             </p>
             <ul>
