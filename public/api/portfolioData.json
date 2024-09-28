@@ -1,7 +1,7 @@
 [
     {
         "_id":1,
-        "img":"process.env.PUBLIC_URL/assets/po1.jpg",
+        "img":"process.env.PUBLIC_URL/po1.jpg",
         "title":"Bodrum",
         "brief":"ftftfhjg",
         "category":"UX/UI"
