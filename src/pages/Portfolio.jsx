@@ -13,8 +13,8 @@ const [portfolio,setPortfolio]=useState([])
 const [data,setData]=useState([])
 const [filters,setFilters]=useState(filterListData)
 
-const fetchData =()=> {
-  fetch('/api/portfolioData.json')
+const fetchData = async ()=> {
+  await fetch('/api/portfolioData.json')
   .then(res => res.json())
   .then(data => {
     setPortfolio(data)
