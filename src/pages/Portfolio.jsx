@@ -14,7 +14,7 @@ const [data,setData]=useState([])
 const [filters,setFilters]=useState(filterListData)
 
 const fetchData =()=> {
-  // const axios =require('axios')
+  const axios =require('axios')
   axios.get('http://localhost:3000/api/portfolioData.json')
   .then(res => res.json())
   .then(data => {
