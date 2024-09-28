@@ -3,7 +3,7 @@ import './portfolio.css'
 import SectionTitle from '../components/SectionTitle'
 import filterListData from '../data/filterListData'
 import PortfolioItem from '../components/PortfolioItem'
-import axios from 'axios'
+
 
 //  http://localhost:3000/api/portfolioData.json 
 
@@ -14,8 +14,8 @@ const [data,setData]=useState([])
 const [filters,setFilters]=useState(filterListData)
 
 const fetchData =()=> {
-  // const axios =require('axios')
-  axios.get('http://localhost:3000/api/portfolioData.json')
+  fetch('http://localhost:3000/api/portfolioData.json')
+  .then(res => res.json())
   .then(data => {
     setPortfolio(data)
     console.log(data);
