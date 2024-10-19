@@ -1,63 +1,63 @@
 [
     {
         "_id":1,
-        "img":"/assets/po1.jpg",
+        "img":"/assets/po1.JPG",
         "title":"Bodrum",
         "brief":"ftftfhjg",
         "category":"UX/UI"
     },
     {
         "_id":2,
-        "img":"/assets/po2.jpg",
+        "img":"/assets/po2.JPG",
         "title":"Baku",
         "brief":"vhvhbk",
         "category":"Web"
     },
     {
         "_id":3,
-        "img":"/assets/po3.jpg",
+        "img":"/assets/po3.JPG",
         "title":"Motelghoo",
         "brief":"xfgxckv",
         "category":"App"
     },
     {
         "_id":4,
-        "img":"/assets/po4.jpg",
+        "img":"/assets/po4.JPG",
         "title":"Baku",
         "brief":"fylufygyghfgd",
         "category":"App"
     },
     {
         "_id":5,
-        "img":"/assets/po5.jpg",
+        "img":"/assets/po5.JPG",
         "title":"Baku",
         "brief":"jvcghtdrhjvkkkhvjh",
         "category":"UX/UI"
     },
     {
         "_id":6,
-        "img":"/assets/po6.jpg",
+        "img":"/assets/po6.JPG",
         "title":"Baku",
         "brief":"gkgjfdd",
         "category":"UX/UI"
     },
     {
         "_id":7,
-        "img":"/assets/po7.jpg",
+        "img":"/assets/po7.JPG",
         "title":"Tehran",
         "brief":"gvftfuylfyfu",
         "category":"Web"
     },
     {
         "_id":8,
-        "img":"/assets/po8.jpg",
+        "img":"/assets/po8.JPG",
         "title":"Istanbul",
         "brief":"ytdryddtffyf",
         "category":"App"
     },
     {
         "_id":9,
-        "img":"/assets/po9.jpg",
+        "img":"/assets/po9.JPG",
         "title":"Tehran",
         "brief":"jvttdtjgtdy",
         "category":"UX/UI"
