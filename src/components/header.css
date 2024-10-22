@@ -84,11 +84,23 @@
     margin: 0;
 }
 
-@media (max-width:768){
+
+/* responsive */
+
+@media (max-width:768px){
     #header.header-top {
         height: 60px;
     }
     #header.header-top h1 {
         font-size: 26px;
     }
+}
+@media (max-width:524px){
+    #header.header-top {
+        height: 60px;
+    }
+    #header.header-top h1 {
+        font-size: 26px;
+    }
+  
 }
